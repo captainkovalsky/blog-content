@@ -1,8 +1,9 @@
 dependencies:
   '@rush-temp/main': file:projects/main.tgz
+  '@testing-library/dom': 7.30.0
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
-  '@testing-library/user-event': 12.8.3
+  '@testing-library/user-event': 12.8.3_@testing-library+dom@7.30.0
   '@types/jest': 26.0.21
   '@types/node': 12.20.6
   '@types/react': 17.0.3
@@ -1855,9 +1856,10 @@ packages:
       react-dom: '*'
     resolution:
       integrity: sha512-yEx7oIa/UWLe2F2dqK0FtMF9sJWNXD+2PPtp39BvE0Kh9MJ9Kl0HrZAgEuhUJR+Lx8Di6Xz+rKwSdEPY2UV8ZQ==
-  /@testing-library/user-event/12.8.3:
+  /@testing-library/user-event/12.8.3_@testing-library+dom@7.30.0:
     dependencies:
       '@babel/runtime': 7.13.10
+      '@testing-library/dom': 7.30.0
     dev: false
     engines:
       node: '>=10'
@@ -9934,7 +9936,7 @@ packages:
       integrity: sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
   /regenerator-transform/0.14.5:
     dependencies:
-      '@babel/runtime': 7.13.10
+      '@babel/runtime': 7.12.1
     dev: false
     resolution:
       integrity: sha512-eOf6vka5IO151Jfsw2NO9WpGX58W6wWmefK3I1zEGr0lOD0u8rwPaNqQL1aRxUaxLeKO3ArNh3VYg1KbaD+FFw==
@@ -12309,9 +12311,10 @@ packages:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
   file:projects/main.tgz:
     dependencies:
+      '@testing-library/dom': 7.30.0
       '@testing-library/jest-dom': 5.11.9
       '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
-      '@testing-library/user-event': 12.8.3
+      '@testing-library/user-event': 12.8.3_@testing-library+dom@7.30.0
       '@types/jest': 26.0.21
       '@types/node': 12.20.6
       '@types/react': 17.0.3
@@ -12324,11 +12327,12 @@ packages:
     dev: false
     name: '@rush-temp/main'
     resolution:
-      integrity: sha512-mKdqzMZwORPVJdqeVtxr7SyAUUYfLoiyZ8A/7EHO5xdqV9aLOQFcctjXKNjup1yQDAkAC0vIYuq4Z9dLqG/yhQ==
+      integrity: sha512-a792ZlLH3R+kj/V3kP9hoSNYRYxJWslqtY5OTkQTG9q0e+ZMpd+1VDgBKgRdlonsDzlNJi5HnLXk8h+cQ3WhuA==
       tarball: file:projects/main.tgz
     version: 0.0.0
 specifiers:
   '@rush-temp/main': file:./projects/main.tgz
+  '@testing-library/dom': ^7.21.4
   '@testing-library/jest-dom': ^5.11.4
   '@testing-library/react': ^11.1.0
   '@testing-library/user-event': ^12.1.10
