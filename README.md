@@ -1,7 +1,7 @@
 # Consult/Estimator
 
 
-The simple web application for connect a customers whom want to know how much they should spent for the particular web site development.
+The simple web application connects the customers who want to know how much they should spend on the particular website development.
 
 
 Collection Requirements 
