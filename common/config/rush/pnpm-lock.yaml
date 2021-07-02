@@ -1,5 +1,5 @@
 dependencies:
-  '@rush-temp/main': file:projects/main.tgz
+  '@rush-temp/web': file:projects/web.tgz
   '@testing-library/dom': 7.30.0
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
@@ -12309,7 +12309,7 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
-  file:projects/main.tgz:
+  file:projects/web.tgz:
     dependencies:
       '@testing-library/dom': 7.30.0
       '@testing-library/jest-dom': 5.11.9
@@ -12325,13 +12325,14 @@ packages:
       typescript: 4.2.3
       web-vitals: 1.1.1
     dev: false
-    name: '@rush-temp/main'
+    name: '@rush-temp/web'
     resolution:
-      integrity: sha512-a792ZlLH3R+kj/V3kP9hoSNYRYxJWslqtY5OTkQTG9q0e+ZMpd+1VDgBKgRdlonsDzlNJi5HnLXk8h+cQ3WhuA==
-      tarball: file:projects/main.tgz
+      integrity: sha512-awbogAijtny/DzklU5mNekK4cbyNlmlaYUGMCRPYMbzvycpg3NFR5EgafOvFngY949PDESGw9w2VBrFTfAiyFQ==
+      tarball: file:projects/web.tgz
     version: 0.0.0
+registry: ''
 specifiers:
-  '@rush-temp/main': file:./projects/main.tgz
+  '@rush-temp/web': file:./projects/web.tgz
   '@testing-library/dom': ^7.21.4
   '@testing-library/jest-dom': ^5.11.4
   '@testing-library/react': ^11.1.0
