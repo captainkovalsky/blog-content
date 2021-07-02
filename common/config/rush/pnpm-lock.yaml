@@ -1,4 +1,5 @@
 dependencies:
+  '@craco/craco': 6.1.2_react-scripts@4.0.3
   '@rush-temp/web': file:projects/web.tgz
   '@testing-library/dom': 7.30.0
   '@testing-library/jest-dom': 5.11.9
@@ -1307,6 +1308,21 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ==
+  /@craco/craco/6.1.2_react-scripts@4.0.3:
+    dependencies:
+      cross-spawn: 7.0.3
+      lodash: 4.17.21
+      react-scripts: 4.0.3_react@17.0.1+typescript@4.2.3
+      semver: 7.3.2
+      webpack-merge: 4.2.2
+    dev: false
+    engines:
+      node: '>=6'
+    hasBin: true
+    peerDependencies:
+      react-scripts: ^4.0.0
+    resolution:
+      integrity: sha512-GlQZn+g+yNlaDvIL5m6mcCoBGyFDwO4kkNx3fNFf98wuldkdWyBFoQbtOFOIb4gvkTh4VntOOxtJEoZfKs7XXw==
   /@csstools/convert-colors/1.4.0:
     dev: false
     engines:
@@ -11891,6 +11907,12 @@ packages:
       webpack: 2 || 3 || 4
     resolution:
       integrity: sha512-9S6YyKKKh/Oz/eryM1RyLVDVmy3NSPV0JXMRhZ18fJsq+AwGxUY34X54VNwkzYcEmEkDwNxuEOboCZEebJXBAQ==
+  /webpack-merge/4.2.2:
+    dependencies:
+      lodash: 4.17.21
+    dev: false
+    resolution:
+      integrity: sha512-TUE1UGoTX2Cd42j3krGYqObZbOD+xF7u28WB7tfUordytSjbWTIjK/8V0amkBfTYN4/pB/GIDlJZZ657BGG19g==
   /webpack-sources/1.4.3:
     dependencies:
       source-list-map: 2.0.1
@@ -12311,6 +12333,7 @@ packages:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
   file:projects/web.tgz:
     dependencies:
+      '@craco/craco': 6.1.2_react-scripts@4.0.3
       '@testing-library/dom': 7.30.0
       '@testing-library/jest-dom': 5.11.9
       '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
@@ -12327,11 +12350,12 @@ packages:
     dev: false
     name: '@rush-temp/web'
     resolution:
-      integrity: sha512-awbogAijtny/DzklU5mNekK4cbyNlmlaYUGMCRPYMbzvycpg3NFR5EgafOvFngY949PDESGw9w2VBrFTfAiyFQ==
+      integrity: sha512-OBvmTZMYHidj/pwz+fJ5lje1sQ9bqjqumM3TPk5wvjrtZ9Z+4FQzlMJjeEgYfFFoq6WfMKSzxsIFcDEAEDp7OA==
       tarball: file:projects/web.tgz
     version: 0.0.0
 registry: ''
 specifiers:
+  '@craco/craco': ~6.1.2
   '@rush-temp/web': file:./projects/web.tgz
   '@testing-library/dom': ^7.21.4
   '@testing-library/jest-dom': ^5.11.4
